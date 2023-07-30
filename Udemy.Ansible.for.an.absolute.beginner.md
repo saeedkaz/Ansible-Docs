@@ -47,8 +47,9 @@ Push based is more easier to deploy but difficult to scale.
 
 ```mermaid
 graph TB
-C[PlayBook] <--> A((Master Server))
-B[Inventory] <--> A((Master Server))
+C[PlayBook] --- A((Master Server))
+B[Inventory] --- A((Master Server))
+A((Master Server)) 
 A((Master Server)) --> D[Server1]
 A((Master Server)) --> E[Server2]
 A((Master Server)) --> F[Server3]
@@ -60,13 +61,41 @@ J[List of servers] --> B[Inventory]
 
 ## 6- Overview of YAML
 
+**What are rules of YAML?**
 
+* end in .yaml
+* case sensitive
+* not use tab
 
+**How declare start of a yaml file?**  
+`---`
 
-**Question?**  
-**Question?**  
-**Question?**  
-**Question?**  
-**Question?**  
-**Question?**  
+**How comment in yaml file?**  
+`#`  
 
+**ٌWhat is scalar?**
+A variable. Placeholder that stores some information.
+
+**Sequence?**  
+List  
+determeined by `-`
+Nested sequence created by spase. like this:
+
+```yaml
+- toy
+ - car
+ - plane
+```
+
+**mapping?**  
+key value pair
+**Question?**  
+**Question?**  
+**Question?**  
+**Question?**  
+**Question?**  
+**Question?**  
+**Question?**  
+**Question?**  
+**Question?**  
+**Question?**  
