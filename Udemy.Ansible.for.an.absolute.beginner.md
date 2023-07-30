@@ -36,49 +36,37 @@ Push based is more easier to deploy but difficult to scale.
 
 ## 5-Ansible A birdseye view
 
+**What are some features of ansible?**
 
+* agentless
+* SSH
+* push-based
+* python built
+
+**What are ansible components?**
 
 ```mermaid
-graph TD
-A[Start] --> B[Do something]
-B --> C{Decision}
-C -->|Yes| D[Do something else]
-C -->|No| E[End]
-
+graph TB
+C[PlayBook] <--> A((Master Server))
+B[Inventory] <--> A((Master Server))
+A((Master Server)) --> D[Server1]
+A((Master Server)) --> E[Server2]
+A((Master Server)) --> F[Server3]
+G((Task1)) --> I(Play) 
+H((Task2)) --> I(Play) 
+I(Play) --> C[PlayBook]
+J[List of servers] --> B[Inventory]
 ```
 
-**Question?** 
+## 6- Overview of YAML
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**Question?** 
-
-**Question?** 
-**Question?** 
-**Question?** 
-**Question?** 
-**Question?** 
-**Question?** 
+**Question?**  
+**Question?**  
+**Question?**  
+**Question?**  
+**Question?**  
+**Question?**  
 
