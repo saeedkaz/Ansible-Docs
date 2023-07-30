@@ -36,11 +36,16 @@ Push based is more easier to deploy but difficult to scale.
 
 ## 5-Ansible A birdseye view
 
-graph TD;
-A-->B;
-A-->C;
-B-->D;
-C-->D;
+
+
+```mermaid
+graph TD
+A[Start] --> B[Do something]
+B --> C{Decision}
+C -->|Yes| D[Do something else]
+C -->|No| E[End]
+
+```
 
 **Question?** 
 
