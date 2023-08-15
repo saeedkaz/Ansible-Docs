@@ -90,7 +90,12 @@ Nested sequence created by spase. like this:
 **mapping?**  
 key value pair
 
-**Question?**  
+**What are data types in YAML?**
+
+* key value pair
+* list: oredered
+* dictioneries: unordered
+
 **Question?**  
 **Question?**  
 **Question?**  
