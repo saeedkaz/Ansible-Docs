@@ -95,11 +95,25 @@ key value pair
 * key value pair
 * list: oredered
 * dictioneries: unordered
+  
+## Variables
 
-**Question?**  
-**Question?**  
-**Question?**  
-**Question?**  
+**What is jinja2 Templating?**  
+replacing a varialbe with {{varname}} and defining the value in another file live variable.yaml
+remember to put the variable between quotes when it is not between a sentence.
+
+## Conditionals
+
+**How can we use "when"?**  
+by adding 'when:' following by a condition using == in the end of a task.
+We can use "or" & "and" for conditions combination.
+
+**How can we use loop in conditions?**  
+By adding "loop:" followed by the variable name.
+
+**How can we use conditonals by output of previous task?**  
+By using `register:` in the first task and when in the second task.
+
 **Question?**  
 **Question?**  
 **Question?**  
