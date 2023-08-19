@@ -114,8 +114,18 @@ By adding "loop:" followed by the variable name.
 **How can we use conditonals by output of previous task?**  
 By using `register:` in the first task and when in the second task.
 
-**Question?**  
-**Question?**  
+## Loops
+
+**How can we use loop?**  
+by adding items after loop: in a array of dictionories(or values) and passing them in item.name format.  
+
+**What is with_?**  
+a lookup plugins.  
+custom scritp to do specific tasks like connect to other systems.
+e.g.
+
+* with_items
+* with_k8s
 **Question?**  
 **Question?**  
 **Question?**  
