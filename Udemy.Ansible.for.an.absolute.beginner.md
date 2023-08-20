@@ -126,6 +126,42 @@ e.g.
 
 * with_items
 * with_k8s
+
+## Roles
+
+**What is Roles in Ansible?**  
+Collections of tasks.  
+Similar to playbook but it can be reused and shared.  
+Organize tasks in directorires:
+
+* tasks  
+* vars  
+* defaults  
+* handlers  
+* templates  
+
+**ٌWhat is Ansible Galaxy?**  
+There are roles shared in it
+
+**How create roles?**  
+ansible-galaxy init mysql
+
+**Where should put roles folders?**  
+Playbook find roles
+
+* in a folder named roles beside playbook yaml file.  
+* in /etc/ansible/roles
+
+**How can use a role from galaxy?**  
+ansible-galaxy isntall someroles.mysql
+
+**Find installed roles?**  
+ansible-galaxy list
+
+**Question?**  
+**Question?**  
+**Question?**  
+**Question?**  
 **Question?**  
 **Question?**  
 **Question?**  
