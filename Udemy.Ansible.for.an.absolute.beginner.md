@@ -1,5 +1,24 @@
-# Udemy Ansible for an absolute beginner
+# Ansible Documentation Summary
 
+<https://docs.ansible.com/ansible/latest/index.html>
+
+## About Ansible
+
+Ansible is simple automation tool, featuring a minimum of moving parts.  
+It is agentless and decnetrlizes and uses exisiting OS credentials.  
+Ansible release a new major version every two years.
+
+## Ansible getting started
+
+### Building an inventory
+
+
+***
+***
+***
+***
+***
+## Udemy Ansible for an absolute beginner
 ## 2-Overview of Devops
 
 **What are three primary areas of DevOps?**
